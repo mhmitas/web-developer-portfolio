@@ -3,6 +3,19 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
 /* primary text color */
 .orenge-r {
     color: #FD6E0A;
@@ -50,10 +63,11 @@ nav a {
 
 /* header releted styles */
 .header {
-    background-color: #FFF8F3;
+    background-color: #f6d4bc;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
+    /* border-radius: 10px; */
 }
 
 .banner {
@@ -91,8 +105,9 @@ nav a {
 /* main sections styles */
 
 /* about section styles */
-.about{
+.about {
     padding: 131px;
-    background-color: #FFF8F3;
+    background-color: #f6d4bc;
     border-radius: 10px;
+    margin: 130px 0 ;
 }
