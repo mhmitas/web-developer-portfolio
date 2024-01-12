@@ -215,3 +215,33 @@ textarea {
 .social-links a{
     margin-right: 25px;
 }
+
+/* responsive layout */
+.hide{
+    display: none;
+}
+/* for mobile devise */
+@media screen and (max-width:576px){
+    .skills-container{
+        flex-direction: column;
+    }
+    .about {
+        padding: 20px;
+        /* margin: 130px 0; */
+    }
+    .about-info-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .resume-container{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+        gap: 0;
+        padding: 20px 20px;
+    }
+    .footer-collumn{
+        width: 80%;
+    }
+}
