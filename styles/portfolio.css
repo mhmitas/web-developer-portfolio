@@ -233,7 +233,8 @@ textarea {
         margin-bottom: 30px;
     }
 
-    nav, nav>ul{
+    nav,
+    nav>ul {
         align-items: flex-start;
     }
 
@@ -278,5 +279,32 @@ textarea {
 
     .footer-collumn {
         width: 80%;
+    }
+}
+
+/* responsive for medium device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .banner .profile-pic {
+        width: 100%;
+    }
+
+    .skills-container,
+    .banner,
+    footer {
+        flex-direction: column;
+        gap: 0;
+        padding: 20px 20px;
+    }
+    .skill{
+        margin-bottom: 15px;
+    }
+
+    .resume-container{
+        padding: 0 10px;
+        gap: 40px;
+    }
+
+    .footer-collumn {
+        width: 90%;
     }
 }
