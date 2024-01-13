@@ -64,7 +64,7 @@ nav a {
 /* header releted styles */
 .header {
     background-color: #f6d4bc;
-    background-image: url('../images/header_bg.png') ,url('../images/developer.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, top left;
     /* border-radius: 10px; */
@@ -212,36 +212,71 @@ textarea {
     width: 100%;
 }
 
-.social-links a{
+.social-links a {
     margin-right: 25px;
 }
 
 /* responsive layout */
-.hide{
+.hide {
     display: none;
 }
+
 /* for mobile devise */
-@media screen and (max-width:576px){
-    .skills-container{
+@media screen and (max-width:576px) {
+
+    nav>ul,
+    .skills-container {
         flex-direction: column;
     }
+
+    nav li {
+        margin-bottom: 30px;
+    }
+
+    nav, nav>ul{
+        align-items: flex-start;
+    }
+
     .about {
         padding: 20px;
         /* margin: 130px 0; */
     }
-    .about-info-container{
+
+    .about-info-container {
         flex-direction: column;
         justify-content: center;
     }
-    .resume-container{
+
+    .resume-container {
         flex-direction: column;
+        padding: 0 10px;
     }
-    footer{
+
+    nav {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .banner .profile-pic {
+        width: 100%;
+    }
+
+    .btn-primary {
+        margin-bottom: 10px;
+    }
+
+    .banner-title {
+        font-size: 50px;
+    }
+
+    .banner,
+    footer {
         flex-direction: column;
         gap: 0;
         padding: 20px 20px;
     }
-    .footer-collumn{
+
+    .footer-collumn {
         width: 80%;
     }
 }
